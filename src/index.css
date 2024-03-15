@@ -1,0 +1,123 @@
+body,
+html {
+  font-family: DMSans, sans-serif;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: local('DMSans'), url(./fonts/DMSans-Regular.ttf) format('truetype');
+}
+
+/* @font-face {
+  font-family: 'DMSans';
+  font-weight: 900;
+  src: local('DMSans'), url(./fonts/DMSans-Bold.ttf) format('truetype');
+} */
+
+@font-face {
+  font-family: 'DMSans-Medium';
+  font-weight: 700;
+  src: local('DMSans'), url(./fonts/DMSans-Medium.ttf) format('truetype');
+}
+
+.tableSubhead {
+  font-family: 'DMSans-Medium';
+  font-size: 24px;
+  color: #292929;
+}
+
+.tableRowData td:first-of-type {
+  padding-left: 0 !important;
+}
+
+/* .tableRowData td:last-of-type {
+  text-align: center;
+} */
+.tableColumnData {
+  font-family: 'DMSans';
+  font-size: 16px;
+  color: #292929;
+  line-height: 24px;
+  border-bottom: 1px solid rgb(224, 224, 224) !important;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.tableSortBtn {
+  font-family: 'DMSans-Medium';
+  font-size: 16px;
+  color: #2e23fb;
+  border-color: #2e23fb;
+  margin-right: 23px;
+}
+
+.tableDownloadBtn {
+  font-family: 'DMSans-Medium';
+  font-size: 16px;
+  background-color: #2e23fb;
+}
+
+.tablePagination p {
+  font-family: 'DMSans';
+  color: #919191;
+}
+
+.profileSubDetail {
+  font-size: 16px;
+}
+
+.registerUser {
+  background: #cdcafe;
+  /* opacity: 0.24; */
+  border-radius: 8px !important;
+  font-family: 'DMSans-Medium';
+  color: #2e23fb;
+  font-size: 16px;
+}
+
+.unregisterUser {
+  background: #f1c7c7;
+  border-radius: 8px !important;
+  font-family: 'DMSans-Medium';
+  color: #e03f31;
+  font-size: 16px;
+}
+
+button[aria-selected='false'] {
+  color: #919191;
+  font-size: 16px;
+  font-family: 'DMSans-Medium';
+  text-transform: capitalize !important;
+}
+
+button[aria-selected='true'] {
+  font-size: 16px;
+  font-family: 'DMSans-Medium';
+  color: #2e23fb !important;
+  text-transform: capitalize !important;
+}
+
+.commonTabHead .MuiTabs-indicator {
+  background-color: #2e23fb;
+}
+
+.navigation .navItemActive {
+  color: #2e23fb !important;
+  border-right: 4px solid #2e23fb;
+  border-radius: 0;
+  background-color: #ffffff !important;
+}
+.loginTextField label {
+  color: #292929;
+  font-size: 16px;
+  font-family: 'DMSans';
+}
+
+.loginTextField input {
+  color: #919191;
+  padding: 12.5px;
+  font-size: 16px;
+  font-family: 'DMSans';
+}
